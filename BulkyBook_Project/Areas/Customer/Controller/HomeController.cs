@@ -8,8 +8,9 @@ using Microsoft.Extensions.Logging;
 using BulkyBook_Project.Models;
 using BulkyBook_Project.Models.ViewModels;
 
-namespace BulkyBook_Project.Controllers
+namespace BulkyBook_Project.Areas.Customer.Controllers
 {
+    [Area("Customer")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
