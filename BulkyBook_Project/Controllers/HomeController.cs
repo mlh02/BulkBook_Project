@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using BulkyBook_Project.Models;
+using BulkyBook_Project.Models.ViewModels;
 
 namespace BulkyBook_Project.Controllers
 {

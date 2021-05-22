@@ -13,4 +13,8 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.6" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.6" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BulkBook.Models\BulkyBook.Models.csproj" />
+    <ProjectReference Include="..\BulkyBook.Utility\BulkyBook.Utility.csproj" />
+  </ItemGroup>
 </Project>
