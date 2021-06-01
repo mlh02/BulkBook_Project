@@ -21,10 +21,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BulkyBook.DataAcess\BulkyBook.DataAccess.csproj">
+          <ProjectReference Include="..\BulkBook.Models\BulkyBook.Models.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
-    <ProjectReference Include="..\BulkBook.Models\BulkyBook.Models.csproj">
+    <ProjectReference Include="..\BulkyBook.DataAcess\BulkyBook.DataAccess.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
     <ProjectReference Include="..\BulkyBook.Utility\BulkyBook.Utility.csproj">
